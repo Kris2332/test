@@ -3,11 +3,10 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://example.com/background-image.jpg'); /* Шлях до зображення */
-    background-size: cover; /* Зображення покриває всю сторінку */
-    background-position: center; /* Центрування зображення */
-    background-repeat: no-repeat; /* Забороняє повторення зображення */
-    background-attachment: fixed; /* Закріплює фон під час прокрутки */
+    background-color: #cccccc; /* Світло-сірий фон */
+}
+
+   
 }
 
    
