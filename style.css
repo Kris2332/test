@@ -1,104 +1,65 @@
-/* Загальні стилі для всієї сторінки */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cccccc; /* Світло-сірий фон */
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-/* Стилі для заголовка */
+/* Header styles */
 header {
-    background-color: #007bff;
-    color: white;
-    padding: 15px 0;
+    background-color: #004080; /* Dark blue background */
+    color: white; /* White text */
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
+    font-size: 2.5em;
     margin: 0;
 }
 
-/* Стилі для меню навігації */
-nav {
-    background-color: #0056b3;
-    padding: 10px 0;
-    text-align: center;
+header p {
+    font-size: 1.2em;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Стилі для головного блоку (hero section) */
-.hero {
-    background-color: #343a40;
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.hero h2 {
-    font-size: 36px;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-/* Стилі для контенту */
-.content {
+/* About section */
+#about {
+    background-color: #e0f7fa; /* Light cyan background */
     padding: 20px;
-    text-align: center;
 }
 
-.content h3 {
-    color: #333;
-    margin-bottom: 15px;
+#about h2 {
+    color: #00796b; /* Teal color for headings */
 }
 
-.content p, .content ul {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #555;
+/* Programs section */
+#programs {
+    background-color: #f9fbe7; /* Light yellow-green background */
+    padding: 20px;
 }
 
-.content ul {
-    list-style-type: none;
-    padding: 0;
+#programs h2 {
+    color: #33691e; /* Dark green color */
 }
 
-.content ul li {
+#programs ul li {
     margin-bottom: 10px;
 }
 
-/* Стилі для футера */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* Links */
+a {
+    color: #d32f2f; /* Red for links */
+    text-decoration: none;
 }
 
-footer p {
-    margin: 0;
+a:hover {
+    text-decoration: underline;
 }
 
+/* Section with the image */
+section img {
+    border: 3px solid #004080; /* Border around image */
+    margin-top: 10px;
+}
